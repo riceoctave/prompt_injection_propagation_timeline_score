@@ -1,11 +1,11 @@
-# redteam_jd022
+# prompt_injection_propagation_timeline_score
 
 **按时间线排列红队与内容安全工程师·提示注入的跨轮传播并标出节奏异常。**
 
-`redteam_jd022` —— 解析时间标记，排列红队与内容安全工程师·提示注入的跨轮传播的发生顺序，标出间隔异常与逆序事件
+`prompt_injection_propagation_timeline_score` —— 解析时间标记，排列红队与内容安全工程师·提示注入的跨轮传播的发生顺序，标出间隔异常与逆序事件
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`redteam_jd022.py` 拷走就能用
+- 单文件，`prompt_injection_propagation_timeline_score.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install riceoctave-redteam_jd022
+pip install riceoctave-prompt_injection_propagation_timeline_score
 ```
 
 装完直接用命令名调用：
 
 ```bash
-redteam_jd022 --help
+prompt_injection_propagation_timeline_score --help
 ```
 
-也可以不用安装，直接把 `redteam_jd022.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `prompt_injection_propagation_timeline_score.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ redteam_jd022 --help
 ## 用法
 
 ```bash
-python redteam_jd022.py --file input.txt
-python redteam_jd022.py --text "示例内容"
-python redteam_jd022.py --file input.txt --json
+python prompt_injection_propagation_timeline_score.py --file input.txt
+python prompt_injection_propagation_timeline_score.py --text "示例内容"
+python prompt_injection_propagation_timeline_score.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python redteam_jd022.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_redteam_jd022.py
+python test_prompt_injection_propagation_timeline_score.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_redteam_jd022.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/riceoctave/redteam_jd022>
+- GitHub 仓库：<https://github.com/riceoctave/prompt_injection_propagation_timeline_score>
 
 ---
 
@@ -79,7 +79,7 @@ python test_redteam_jd022.py
 riceoctave 做红队与内容安全工程师·提示注入的跨轮传播相关的问题，方向对标宇树科技的初级红队与内容安全工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://riceoctave.github.io>
-- 仓库：<https://github.com/riceoctave/redteam_jd022>
+- 仓库：<https://github.com/riceoctave/prompt_injection_propagation_timeline_score>
 
 ## 许可
 
